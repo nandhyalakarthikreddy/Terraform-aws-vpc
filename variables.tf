@@ -11,3 +11,8 @@ variable "project_name" {
 variable "Environment" {
   type = string
 }
+
+variable "vpc_tags" {
+    type = map
+    default = {}
+}
