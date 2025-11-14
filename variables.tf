@@ -5,9 +5,9 @@ variable "vpc_cidr" {
 
 
 variable "project_name" {
-  default = string
+  type = string
 }
 
 variable "Environment" {
-  default = string
+  type = string
 }
