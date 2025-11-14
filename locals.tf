@@ -1,5 +1,4 @@
 locals{
-    type = map(string)
     common_tags = {
         Project = var.project_name
         Environment = var.Environment
